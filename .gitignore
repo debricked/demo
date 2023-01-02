@@ -3,6 +3,7 @@ target/
 .idea/
 .debricked-maven-dependencies.tgf
 web/public/
+web/app/node_modules
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
