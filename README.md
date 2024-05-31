@@ -1,2 +1,2 @@
 # demo
-Demo project
+Demo project with various Open Source obstacles
