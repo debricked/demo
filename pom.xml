@@ -16,12 +16,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>2.7.6</version>
+			<version>3.3.7</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.zookeeper</groupId>
 			<artifactId>zookeeper</artifactId>
-			<version>3.4.11</version>
+			<version>3.5.10</version>
 		</dependency>
 		<dependency>
 			<groupId>org.kitchen-eel</groupId>
@@ -29,10 +29,26 @@
 			<version>1.5.2</version>
 		</dependency>
 		<dependency>
+			<groupId> org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.13.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.jsoup</groupId>
+		    <artifactId>jsoup</artifactId>
+		    <version>1.8.3</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<version>2.7.6</version>
+			<version>3.3.7</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.jboss.spec.javax.rmi</groupId>
+		    <artifactId>jboss-rmi-api_1.0_spec</artifactId>
+		    <version>1.0.6.Final</version>
+		    <scope>test</scope>
 		</dependency>
 	</dependencies>
 	<build>
