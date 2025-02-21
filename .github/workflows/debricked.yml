@@ -7,9 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: debricked/actions/callgraph@v3
-      - uses: debricked/actions/fingerprint@v3
-      - uses: debricked/actions@v3
+      - uses: actions/checkout@v4
+      - uses: debricked/actions/callgraph@v4
+      - uses: debricked/actions@v4
         env:
           DEBRICKED_TOKEN: ${{ secrets.DEBRICKED_TOKEN }}
