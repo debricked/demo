@@ -21,6 +21,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-Includes other software related under the MIT license:
+Includes other software released under the MIT license:
 - jasypt-spring-boot-starter-3.0.5, Copyright (c) 2021 Sergio Ulises Bocchio. For licensing see /src/main/libs/LICENSE-jasypt-spring-boot-starter-3.0.5.txt
 - vite-plugin-purgecss, Copyright (c) 2023 Joe Stanley. For licensing see /web/app/src/LICENSE-vite-plugin-purgecss.txt
