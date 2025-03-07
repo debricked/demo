@@ -28,7 +28,7 @@ To enable the dependency scans with GitHub actions, set up your Debricked Access
 2. Navigate to the repository on GitHub.
 3. Go to **Settings** > **Secrets and variables** > **Actions**.
 4. Click **New repository secret**.
-5. Name the secret `DEBRICKED_API_KEY` and paste your Access Token as the value.
+5. Name the secret `DEBRICKED_TOKEN` and paste your Access Token as the value.
 
 ### 3. Run a scan
 
